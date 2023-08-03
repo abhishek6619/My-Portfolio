@@ -161,6 +161,8 @@ textarea,
 form>button {
     padding: 10px;
     margin: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
