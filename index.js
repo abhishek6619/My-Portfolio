@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
   console.log(email)
   const message= form.message.value;
   console.log(message);
-  window.location.href = 'mailto:abhishek.btech.ec18@iiitranchi.ac.in?subject=Hi, I am -' + name + ' (' + email + ')' + '&body=' + message +'&cc=Abhishek@letskhabar.com&bcc='+email;
+  window.location.href = 'mailto:abhishekkumar231@lpu.in?subject=Hi, I am -' + name + ' (' + email + ')' + '&body=' + message +'&cc=abhis42124@gmail.com&bcc='+email;
   // swal("Sucess!");
 })
 document.querySelector('.twitter').addEventListener('click', () => window.location.href = "https://twitter.com/abhishek42124")
